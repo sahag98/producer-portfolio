@@ -3,9 +3,7 @@ import { BentoGridSecondDemo } from "@/components/bento";
 import ContactFooter from "@/components/footer";
 import Hero from "@/components/hero";
 import IntroSection from "@/components/intro";
-import { Button } from "@/components/ui/button";
 import { VelocityScroll } from "@/components/ui/scroll-based-velocity";
-import Image from "next/image";
 
 export default function Home() {
   return (

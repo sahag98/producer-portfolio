@@ -1,25 +1,10 @@
-// "use client";
-// import { useEffect, useRef } from "react";
-// import { gsap } from "gsap";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { FaApple, FaSoundcloud, FaSpotify, FaYoutube } from "react-icons/fa";
+import { FaApple, FaSpotify, FaYoutube } from "react-icons/fa";
 import HyperText from "./ui/hyper-text";
 
 const Hero = () => {
-  // const imageRef = useRef<HTMLImageElement>(null);
-
-  // useEffect(() => {
-  //   if (imageRef.current) {
-  //     gsap.fromTo(
-  //       imageRef.current,
-  //       { y: "-100%", opacity: 1 },
-  //       { y: "0%", opacity: 1, duration: 1, ease: "power2.out" }
-  //     );
-  //   }
-  // }, []);
-
   return (
     <div className="relative">
       <div className="absolute z-10 inset-0 h-screen flex flex-col items-center justify-center">
@@ -28,13 +13,9 @@ const Hero = () => {
           className="font-bold md:text-9xl text-7xl text-background"
           text="ORION"
         />
-        {/* <h1 className="font-bold md:text-9xl text-7xl text-background">
-          ORION
-        </h1> */}
       </div>
       <div className="absolute inset-0 w-full h-screen bg-black/50" />
       <Image
-        // ref={imageRef}
         src={"/hero-bg.png"}
         alt="latest album cover"
         width={3000}
