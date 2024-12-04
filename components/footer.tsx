@@ -66,31 +66,23 @@ export default function ContactFooter() {
             <div className="space-y-2">
               <h4 className="text-sm tracking-wide">Booking</h4>
               <Link
-                href="mailto:booking@sonicdrive.music"
+                href="mailto:kasteomusic223@gmail.com"
                 className="text-gray-600 hover:text-gray-900"
               >
-                booking@sonicdrive.music
+                kasteomusic223@gmail.com
               </Link>
             </div>
 
             <div className="space-y-4">
               <h4 className="text-sm tracking-wide">Find me on</h4>
               <div className="flex gap-6">
-                <Link href="#" className="hover:text-gray-600">
+                <Link
+                  target="_blank"
+                  href="https://www.instagram.com/_kasteo_/profilecard/?igsh=NTc4MTIwNjQ2YQ%3D%3D"
+                  className="hover:text-gray-600"
+                >
                   <Instagram className="h-6 w-6" />
                   <span className="sr-only">Instagram</span>
-                </Link>
-                <Link href="#" className="hover:text-gray-600">
-                  <Music2 className="h-6 w-6" />
-                  <span className="sr-only">Threads</span>
-                </Link>
-                <Link href="#" className="hover:text-gray-600">
-                  <Music2 className="h-6 w-6" />
-                  <span className="sr-only">TikTok</span>
-                </Link>
-                <Link href="#" className="hover:text-gray-600">
-                  <Music2 className="h-6 w-6" />
-                  <span className="sr-only">Twitter</span>
                 </Link>
               </div>
             </div>

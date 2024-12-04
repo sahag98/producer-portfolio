@@ -1,4 +1,6 @@
 import { cn } from "@/lib/utils";
+import { IconPlayerPlay } from "@tabler/icons-react";
+import Link from "next/link";
 
 export const BentoGrid = ({
   className,
@@ -20,11 +22,13 @@ export const BentoGrid = ({
 };
 
 export const BentoGridItem = ({
+  link,
   className,
   title,
   description,
   header,
 }: {
+  link: string;
   className?: string;
   title?: string | React.ReactNode;
   description?: string | React.ReactNode;
@@ -38,13 +42,23 @@ export const BentoGridItem = ({
         className
       )}
     >
-      {header}
+      {/* <div className="relative"> */}
+      <div className="min-h-[6rem] relative">
+        {header}
+        <Link
+          href={link}
+          target="_blank"
+          className="absolute cursor-pointer inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover/bento:opacity-100 transition-opacity duration-300"
+        >
+          <IconPlayerPlay className="h-12 w-12 text-white" />
+        </Link>
+      </div>
+      {/* </div> */}
       <div className="group-hover/bento:translate-x-2 transition duration-200">
-        {/* {icon} */}
         <div className="text-xl font-bold text-neutral-600 dark:text-neutral-200 mb-2 mt-2">
           {title}
         </div>
-        <div className=" font-normal text-neutral-600 text-lg dark:text-neutral-300">
+        <div className="font-normal text-neutral-600 text-lg dark:text-neutral-300">
           {description}
         </div>
       </div>
