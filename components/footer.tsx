@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Instagram, Music2, Youtube } from "lucide-react";
+import { Instagram, Youtube } from "lucide-react";
 import { AiOutlineApple, AiOutlineSpotify } from "react-icons/ai";
 
 export default function ContactFooter() {
