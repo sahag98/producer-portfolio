@@ -46,7 +46,8 @@ const Hero = () => {
             </Link>
           </div>
           <video
-            src={"/music.webm"}
+            src={"/music.webm#t=0.001"}
+            preload="auto"
             autoPlay
             loop
             muted
