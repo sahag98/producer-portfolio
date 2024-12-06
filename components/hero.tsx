@@ -49,6 +49,7 @@ const Hero = () => {
             src={"/music.webm#t=0.001"}
             preload="auto"
             autoPlay
+            playsInline
             loop
             muted
             id="current-video"
