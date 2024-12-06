@@ -46,7 +46,6 @@ const Hero = () => {
             </Link>
           </div>
           <video
-            src={"/music.webm#t=0.001"}
             preload="auto"
             autoPlay
             playsInline
@@ -54,7 +53,9 @@ const Hero = () => {
             muted
             id="current-video"
             className="size-12 w-full"
-          />
+          >
+            <source src={"/music.webm#t=0.001"} type="video/webm" />
+          </video>
         </div>
         <Image
           src={"/hero-bg.png"}
