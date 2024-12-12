@@ -44,6 +44,22 @@ const items = [
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
   {
+    title: "Kasteo",
+    description: "Sit back and enjoy your ride to.......ORION",
+    header: (
+      <Image
+        alt="single"
+        src={"/kasteo.png"}
+        width={1000}
+        height={1000}
+        className="w-full object-cover h-full rounded-lg"
+      />
+    ),
+    link: "https://www.youtube.com/watch?v=q-R-YfHlX5c",
+    className: "md:col-span-2",
+    icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
+  },
+  {
     title: "Centaurus",
     description: "What really happens inside a black hole?",
     header: (
@@ -103,7 +119,7 @@ const items = [
         className="w-full object-cover h-full rounded-lg"
       />
     ),
-    link: "https://www.youtube.com/watch?v=R5Y7oQPK3AUs",
+    link: "https://www.youtube.com/watch?v=YlXcnzmnWC4&ab_channel=Kasteo-Topic",
     className: "md:col-span-2",
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
@@ -119,7 +135,7 @@ const items = [
         className="w-full object-cover h-full rounded-lg"
       />
     ),
-    link: "https://www.youtube.com/watch?v=R5Y7oQPK3AUs",
+    link: "https://www.youtube.com/watch?v=NWXVYF8ldSs&ab_channel=Kasteo-Topic",
     className: "md:col-span-1",
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
