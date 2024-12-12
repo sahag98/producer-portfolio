@@ -45,7 +45,7 @@ const items = [
   },
   {
     title: "Kasteo",
-    description: "Sit back and enjoy your ride to.......ORION",
+    description: "Sit back and enjoy your ride Kasteo",
     header: (
       <Image
         alt="single"
@@ -55,8 +55,8 @@ const items = [
         className="w-full object-cover h-full rounded-lg"
       />
     ),
-    link: "https://www.youtube.com/watch?v=q-R-YfHlX5c",
-    className: "md:col-span-2",
+    link: "https://www.youtube.com/watch?v=aypfPBKO5tY&ab_channel=Kasteo-Topic",
+    className: "md:col-span-1",
     icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
   {
@@ -88,7 +88,7 @@ const items = [
       />
     ),
     link: "https://www.youtube.com/watch?v=7idV2cA9Sf0",
-    className: "md:col-span-1",
+    className: "md:col-span-2",
     icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
   },
   {
@@ -120,7 +120,7 @@ const items = [
       />
     ),
     link: "https://www.youtube.com/watch?v=YlXcnzmnWC4&ab_channel=Kasteo-Topic",
-    className: "md:col-span-2",
+    className: "md:col-span-1",
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
   {
@@ -136,7 +136,7 @@ const items = [
       />
     ),
     link: "https://www.youtube.com/watch?v=NWXVYF8ldSs&ab_channel=Kasteo-Topic",
-    className: "md:col-span-1",
+    className: "md:col-span-3",
     icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
   },
 ];

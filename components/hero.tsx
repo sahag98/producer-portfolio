@@ -22,7 +22,7 @@ const Hero = () => {
         height={3000}
         className="w-full h-screen object-cover"
       />
-      <div className="absolute items-center rounded-md z-10 justify-between px-1 md:w-1/4 md:mx-0 mx-8 flex bg-background bottom-10 md:right-10">
+      <div className="absolute items-center rounded-md z-10 justify-between p-2 md:w-1/4 md:mx-0 mx-8 flex bg-background bottom-10 md:right-10">
         <div className="font-bold space-y-1">
           <h2>ORION</h2>
           <span className="italic font-light text-sm pb-4">Available on:</span>
@@ -52,7 +52,7 @@ const Hero = () => {
             loop
             muted
             id="current-video"
-            className="size-12 w-full"
+            className="size-12 md:flex hidden w-full"
           >
             <source src={"/music.webm#t=0.001"} type="video/webm" />
           </video>
